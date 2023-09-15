@@ -1,0 +1,31 @@
+{
+  "name": "persistent-socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nil1729/persistent-socket-server.git"
+  },
+  "keywords": [],
+  "author": "nil1729",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nil1729/persistent-socket-server/issues"
+  },
+  "homepage": "https://github.com/nil1729/persistent-socket-server#readme",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.2.1",
+    "@socket.io/redis-emitter": "^5.1.0",
+    "redis": "^4.6.8",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": "18.17.1",
+    "npm": "9.6.7"
+  }
+}
